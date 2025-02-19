@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        color: hsl(0, 0%, 100%);
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 400, 600, 700;
+        font-style: normal;
+        background-color: hsl(0, 0%, 8%);
+        font-size: 14px;
+      }
+      .container {
+        background-color: hsl(0, 0%, 12%);
+        width: 350px;
+        margin-left: 600px;
+        margin-top: 100px;
+        border-radius: 10px;
+        text-align: center;
+        
+      }
+      h1{
+        margin-bottom: 5px;        
+      }
+      h3{
+        color: hsl(75, 94%, 57%);
+        margin-top: 5px;
+        margin-bottom: 20px;
+      }
+      img{
+        margin-top: 40px;
+        width: 30%;
+        border-radius: 50%;
+      }
+      p {
+        font-size: 14px;
+      }
+      .social-links{
+        margin: 30px;
+        align-items: center;
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+      }
+      a{
+        text-decoration: none;
+        display: block;
+        border-radius: 10px;
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        padding: 10px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      a:hover{
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 12%);
+        font-size: 16px;
+      }
+      @media (max-width: 480px) {
+        .container {
+          width: 400px;
+          margin: 50px 40px;
+        }
+        a{
+          padding: 15px 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall" />
+        <h1>Jessica Randall</h1>
+        <h3>London, United Kingdom</h3>
+        <p>"Front-end developer and avid reader."</p>
+        <div class="social-links">
+          <a href="#">GitHub</a>
+          <a href="#">Frontend Mentor</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+      </div>
+    </div>
+  </body>
+</html>
